@@ -1,0 +1,111 @@
+ @charset "UTF-8"; 
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+.login-container {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+    width: 360px;
+    text-align: center;
+}
+.logo h1 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #1877f2;
+    margin-bottom: 20px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 14px 16px;
+    margin: 6px 0 12px 0;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus {
+    border-color: #1877f2;
+}
+
+.login-form button[type="submit"] {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #166fe5;
+}
+
+
+.forgot-password {
+    display: block;
+    margin-top: 12px;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #dddfe2;
+}
+
+.create-account-btn {
+    background-color: #42b72a;
+    border: none;
+    padding: 14px 16px;
+    width: 100%;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-account-btn:hover {
+    background-color: #36a420;
+}
+
+footer {
+    margin-top: 40px;
+    color: #90949c;
+    font-size: 13px;
+}
