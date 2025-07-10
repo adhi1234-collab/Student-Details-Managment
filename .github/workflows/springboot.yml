@@ -21,7 +21,9 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
+        working-directory: finalproject
         run: mvn clean install
 
       - name: Run Tests
+        working-directory: finalproject
         run: mvn test
